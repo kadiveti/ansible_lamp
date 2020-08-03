@@ -1,0 +1,10 @@
+box ansible_host=192.168.0.8
+
+[boxes]
+box
+
+[boxes:vars]
+ansible_connection=ssh
+ansible_user=ansible
+ansible_ssh_pass=1
+host_key_checking=False
